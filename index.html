@@ -19,143 +19,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
-    padding-top: 50px;
-  }
-  h3, h4 {
-    margin: 10px 0 30px 0;
-    letter-spacing: 10px;
-    font-size: 20px;
-    color: #111;
-  }
-  .container {
-    padding: 80px 120px;
-  }
-  .person {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.7;
-  }
-  .person:hover {
-    border-color: #f1f1f1;
-  }
-  .carousel-inner img {
-    /* -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); make all photos black and white
-    width: 100%;  Set width to 100% */
-    margin: auto;
-  }
-  .carousel-caption h3 {
-    color: #fff !important;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
-  .bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-  }
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
-  .list-group-item:first-child {
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-  }
-  .list-group-item:last-child {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-  }
-  .thumbnail p {
-    margin-top: 15px;
-    color: #555;
-  }
-  .btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
-    transition: .2s;
-  }
-  .btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-  }
-  .modal-header, h4, .close {
-    background-color: #333;
-    color: #fff !important;
-    text-align: center;
-    font-size: 30px;
-  }
-  .modal-header, .modal-body {
-    padding: 40px 50px;
-  }
-  .nav-tabs li a {
-    color: #777;
-  }
-  .navbar {
-    font-family: Montserrat, sans-serif;
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
-  }
-  .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
-  }
-  .navbar-nav li a:hover {
-    color: #fff !important;
-  }
-  .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-  }
-  .open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
-  }
-  .dropdown-menu li a {
-    color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
-    background-color: red !important;
-  }
-  footer {
-    /*background-color: #2d2d30;*/
-    color: #777;
-    padding: 32px;
-  }
-  footer a {
-    color: #777;
-  }
-  footer a:hover {
-    color: green;
-    text-decoration: none;
-  }
-  .form-control {
-    border-radius: 0;
-  }
-  textarea {
-    resize: none;
-  }
-  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -179,30 +44,12 @@
 </nav>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol> -->
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/nowyouknow_albumart.png" alt="Ksemp_banner1" width="800" height="auto">
-        </div>
       </div>
     </div>
-
-    <!-- Left and right controls
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>-->
 </div>
 
 <!-- Container (The Streaming Section) -->
@@ -211,33 +58,60 @@
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <h2><a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=zklz0J9BRtqtl5MrqnMbRA"
+      <h3><a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=zklz0J9BRtqtl5MrqnMbRA"
         class="text-center"><strong>Spotify</strong><br>
-      </a></h2>
+      </a></h3>
     </div>
     <div class="col-sm-4">
-      <h2><a href="https://music.apple.com/ca/artist/k-semp/1454126277"
+      <h3><a href="https://music.apple.com/ca/artist/k-semp/1454126277"
         class="text-center"><strong>Apple Music</strong><br>
-      </a></h2>
+      </a></h3>
     </div>
     <div class="col-sm-4">
-      <h2><a href="https://www.youtube.com/channel/UC5WK_P0BNR8LfWh9qoX6-zA?view_as=subscriber"
+      <h3><a href="https://www.youtube.com/channel/UC5WK_P0BNR8LfWh9qoX6-zA?view_as=subscriber"
         class="text-center"><strong>YouTube</strong><br>
-      </a></h2>
+      </a></h3>
     </div>
   </div>
 </div>
 
+<!-- Container (Featured Songs) -->
+<div id="feat_songs" class="bg-1">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Featured Songs</h2>
+      <br>
+      <div class="col-sm-12 ">
+        <h3>Overcome</h3>
+        <div class="embed-responsive embed-responsive-16by9" >
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yHsAKSyRCXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-sm-12 ">
+        <br><br>
+        <h3>Thinking of You</h3>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/KcEisutZg1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Container (FOLLOW ME Section) -->
-<div id="follow" class="bg-1">
+<div id="follow">
   <div class="container">
     <h2 class="text-center">Follow Me</h2>
     <div class="row">
       <div class="col-lg">
-        <h2 class="text-center"><a href="https://www.instagram.com/ksempmusic/"><strong>Instagram</strong>
-        </a><br><br>
-        <a href="https://www.facebook.com/ksempmusic/"><strong>Facebook</strong>
-        </a></h2>
+        <h3 class="text-center">
+          <a href="https://www.instagram.com/ksempmusic/"><i class="fa fa-instagram"></i> Instagram
+          </a>   /
+          <a href="https://www.facebook.com/ksempmusic/"><i class="fa fa-facebook"></i>acebook
+          </a>
+        </h3>
       </div>
     </div>
   </div>
@@ -246,9 +120,9 @@
 
 <!-- Footer -->
 <footer class="text-center" class="container">
-  <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
+  <h2><a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
+  </a></h2>
   <p>K Semp 2019</p>
 </footer>
 
