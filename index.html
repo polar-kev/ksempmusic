@@ -19,161 +19,282 @@
   <!-- End Google Tag Manager -->
 
   <title>K Semp: Official Artist Page</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+<style>
+  h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+  body {font-family: "Open Sans"}
+  .small_box_img {
+    object-fit:cover;
+    width:50px;
+    height: 50px;
+  }
+  .big_box_img{
+    object-fit:scale-down;
+    height: 800px;
+  }
+</style>
+<body class="w3-light-grey">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPF6SCK"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#home">K Semp</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://www.ksempmusic.com/press.html">PRESS</a></li>
-        <li><a href="mailto:ksempmusic@gmail.com">CONTACT</a></li>
-      </ul>
-    </div>
+  <!-- Navigation bar with social media icons -->
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="https://www.instagram.com/ksempmusic/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+    <a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=vAMnv8wGSCqTCWTmt0wtzQ" class="w3-bar-item w3-button"><i class="fa fa-spotify"></i></a>
+    <a href="https://www.facebook.com/ksempmusic/" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.youtube.com/channel/UC5WK_P0BNR8LfWh9qoX6-zA/featured?disable_polymer=1" class="w3-bar-item w3-button"><i class="fa fa-youtube"></i></a>
+    <p class="w3-right">K SEMP  </p>
   </div>
-</nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="images/NowYouKnow_albumart_v4.jpg" alt="Ksemp_banner1" width="800" height="auto">
+  <!-- w3-content defines a container for fixed size centered content,
+  and is wrapped around the whole page content, except for the footer in this example -->
+  <div class="w3-content" style="max-width:1600px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-48 w3-white">
+      <h1 class="w3-xxxlarge"><b>K SEMP Music</b></h1>
+      <h6>See the world through <span class="w3-tag">my eyes</span></h6>
+    </header>
+
+    <!-- Image header -->
+    <!--
+    <header class="w3-display-container w3-wide" id="home">
+      <img class="w3-image" src="images/kswiss_pic1.jpg" alt="K Semp Dance Move" width="1600" height="1060">
+      <div class="w3-display-left w3-padding-large">
+        <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>K SEMP</b></h1>
       </div>
-    </div>
-</div>
+    </header>
+    -->
 
-<!-- Container (The Streaming Section) -->
-<div id="stream" class="container text-center">
-  <h2>Now Streaming! </h2>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <h3><a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=zklz0J9BRtqtl5MrqnMbRA"
-        class="text-center"><strong>Spotify</strong><br>
-      </a></h3>
-    </div>
-    <div class="col-sm-4">
-      <h3><a href="https://music.apple.com/ca/artist/k-semp/1454126277"
-        class="text-center"><strong>Apple Music</strong><br>
-      </a></h3>
-    </div>
-    <div class="col-sm-4">
-      <h3><a href="https://www.youtube.com/channel/UC5WK_P0BNR8LfWh9qoX6-zA?view_as=subscriber"
-        class="text-center"><strong>YouTube</strong><br>
-      </a></h3>
-    </div>
-  </div>
-</div>
+    <!-- Grid -->
+    <div class="w3-row w3-padding w3-border">
 
-<!-- Container (Featured Songs) -->
-<div id="feat_songs" class="bg-1">
-  <div class="container">
-    <div class="row">
-      <h2 class="text-center">Featured Songs</h2>
-      <br>
-      <div class="col-sm-12 ">
-        <h3>Overcome</h3>
-        <div class="embed-responsive embed-responsive-16by9" >
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/yHsAKSyRCXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+
+        <!-- Blog entry -->
+        <div id="note_to_self_single" class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Note to Self!</h3>
+            <h5>New Single! <span class="w3-opacity">Oct. 9, 2020</span></h5>
+          </div>
+
+          <div class="w3-justify">
+            <img src="images/NoteToSelf_Art.png" alt="Note to Self Album Art" style="width:100%" class="w3-padding-16">
+            <p>Check the details in the album art, brought to you by <a href="https://www.instagram.com/voske_art/?hl=en">@voske_art</a></p>
+            <p><strong>Note to Self</strong> started off as a song I made for myself to help me get
+              through the unfortunate end of a relationship. After listing to it
+              over and over and vibing to it in my apartment, I decided to share it
+              with the world. This one's from the heart. If it speaks to you, let me know!</p>
+            <a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=vAMnv8wGSCqTCWTmt0wtzQ" class="w3-button w3-black">Listen on Spotify</a>
+            <p class="w3-clear"></p>
+          </div>
         </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div id="note_to_self_single" class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>K Semp featured on DJ Krops' Worldwide Cypher</h3>
+            <h5>Check it out on Soundcloud <span class="w3-opacity">August, 2020</span></h5>
+          </div>
+
+          <div class="w3-justify">
+            <img src="images/dj_krops_cypher.png" alt="DJ Krops Cypher" style="width:100%" class="w3-padding-16">
+            <p>I recorded a verse on this track with artists from all over the world.</p>
+            <a href="https://soundcloud.com/krops-lee/the-cypherprod-dj-krops" class="w3-button w3-black">Listen on Soundcloud</a>
+            <p class="w3-clear"></p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div id="now_you_know_ep" class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Now You Know</h3>
+            <h5>New EP! <span class="w3-opacity">October, 2019</span></h5>
+          </div>
+
+          <div class="w3-justify">
+            <img src="images/NowYouKnow_albumart_v4.jpg" alt="Now You Know album art" style="width:100%" class="w3-padding-16">
+            <p><strong>Now You Know</strong> is my first EP.</p>
+            <p>There's a little something for everyone on this one. I got to flex my beat making muscle too. Shout out to Ryan Tang for helping me with "Tell Me Who".</p>
+            <a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=vAMnv8wGSCqTCWTmt0wtzQ" class="w3-button w3-black">Listen on Spotify</a>
+            <p class="w3-clear"></p>
+          </div>
+        </div>
+
+        <!-- Blog entry -->
+        <div id="thinking_of_you_single" class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Thinking of You</h3>
+            <h5>My very first single <span class="w3-opacity">February, 2019</span></h5>
+          </div>
+
+          <div class="w3-justify">
+            <img src="images/ksemp_kswiss.jpg" alt="K Semp" style="width:100%" class="w3-padding-16 big_box_img">
+            <p><strong>Thinking of You</strong>, what a journey it's been to get this track out. I recorded this in my kitchen in Vancouver after sitting on the lyrics for years.
+            Play this for that special someone so they know who you're thinking about them, all the time.</p>
+            <a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=vAMnv8wGSCqTCWTmt0wtzQ" class="w3-button w3-black">Listen on Spotify</a>
+            <p class="w3-clear"></p>
+          </div>
+        </div>
+
+        <!-- Blog entry -->
+        <div id="press" class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-center">
+            <h3>Press</h3>
+            <h5>Song and Performance History</h5>
+              <div class="w3-justify">
+              <h2>Recordings</h2>
+              <li>2020 - “Note to Self”, Single; Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - "The Beast, Pt. 1", Now You Know (EP); Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - "The Cake", Now You Know (EP); Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - "Overcome", Now You Know (EP); Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - "Tell Me Who", Now You Know (EP); Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - "Harden in the Paint", Now You Know (EP); Available on Spotify, Apple Music and YouTube</li>
+              <li>2019 - “Thinking of You”, Single; Available on Spotify, Apple Music and YouTube</li>
+
+              <h2>Performance History</h2>
+              <li>2019 - City Dance Corps, "Ground Illusionz 20th Anniversary and Family Party”, Toronto, ON</li>
+              <li>2019 - The Red Gate Society, “The Stew Jams: July Edition”, Vancouver, BC</li>
+              <li>2019 - The Red Gate Society, “The Stew Jams: April Edition”, Vancouver, BC</li>
+              <li>2019 - The Red Gate Society, “The Stew Jams: March Edition”, Vancouver, BC</li>
+              <li>2019 - Calabash Bistro, “Monthly Hip-hopaplyse”, Vancouver, BC</li>
+              <li>2018 - The Red Gate Society, “The Stew Jams: November Edition”, Vancouver, BC</li>
+              <li>2018 - The Red Gate Society, “The Stew Jams: October Edition”, Vancouver, BC</li>
+              <li>2018 - The Red Gate Society, “The Stew Jams: September Edition”, Vancouver, BC</li>
+              <li>2017 - Cowpuccino’s, “Open Mic Night”, Prince Rupert, BC</li>
+            </div>
+            <p class="w3-clear"></p>
+          </div>
+        </div>
+
+      <!-- END BLOG ENTRIES -->
       </div>
 
-      <div class="col-sm-12 ">
-        <h3>Harden in the Paint</h3>
-        <div class="embed-responsive embed-responsive-16by9" >
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/vkQvKuB9pOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- About/Information menu -->
+      <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-white w3-margin">
+          <img src="images/winter_headshot.PNG" alt="K Semp" style="width:100%" class="w3-grayscale">
+          <div class="w3-container w3-black">
+            <h4>K Semp</h4>
+            <p>Kevin Semple, also known as K Semp, is a hip hop recording artist, beatmaker, producer and dancer from Canada.
+              From politics, stories of past relationships, and motivational mantras, to boastful lyrics over booming 808s, K Semp's music
+              showcases a wide variety of styles, highlighting an appreciation for the roots of hip hop as well as its evolution.</p>
+            <p>K Semp is always on the road looking for inspiration. Step into his world and you're sure to find something you didn't know you were looking for.</p>
+          </div>
         </div>
+        <hr>
+
+        <!-- Follow Me Section -->
+        <div class="w3-white w3-margin">
+          <div class="w3-container w3-padding w3-black">
+            <h4>Follow Me</h4>
+          </div>
+          <div class="w3-container w3-xlarge w3-padding">
+            <a href="https://www.instagram.com/ksempmusic/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://open.spotify.com/artist/5McMqSjh87s3okoVkNvGfn?si=vAMnv8wGSCqTCWTmt0wtzQ"><i class="fa fa-spotify"></i></a>
+            <a href="https://www.facebook.com/ksempmusic/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.youtube.com/channel/UC5WK_P0BNR8LfWh9qoX6-zA/featured?disable_polymer=1"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Popular Posts -->
+              <div class="w3-white w3-margin">
+                <div class="w3-container w3-padding w3-black">
+                  <h4>Popular Posts</h4>
+                </div>
+                <ul class="w3-ul w3-hoverable w3-white">
+                  <li class="w3-padding-16">
+                    <a href="#press" style="text-decoration: none">
+                    <span class="w3-large"><strong>Press</strong></span>
+                    <br>
+                    <span>Recording and Performance History</span>
+                  </li></a>
+                  <li class="w3-padding-16">
+                    <a href="#note_to_self_single" style="text-decoration: none">
+                    <img src="images/NoteToSelf_Art.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                    <span class="w3-large"><strong>Note to Self</strong></span>
+                    <br>
+                    <span>New Single</span>
+                  </li></a>
+                  <li class="w3-padding-16">
+                    <a href="#dj_krops_cypher" style="text-decoration: none">
+                    <img src="images/dj_krops_cypher.png" alt="DJ Krops Cypher" class="w3-left w3-margin-right" style="width:50px">
+                    <span class="w3-large"><strong>The Cypher</strong></span>
+                    <br>
+                    <span>K Semp featured on DJ Krops' World Wide Cypher</span>
+                  </li></a>
+                  <li class="w3-padding-16">
+                    <a href="#thinking_of_you_single" style="text-decoration: none">
+                    <img src="images/ksemp_kswiss.jpg" alt="K Semp" class="w3-left w3-margin-right small_box_img">
+                    <span class="w3-large"><strong>Thinking of You</strong></span>
+                    <br>
+                    <span>K Semp's first single</span>
+                  </li></a>
+                </ul>
+              </div>
+              <hr>
+
+
+
+        <!-- Subscribe -->
+        <!--
+        <div class="w3-white w3-margin">
+          <div class="w3-container w3-padding w3-black">
+            <h4>Subscribe</h4>
+          </div>
+          <div class="w3-container w3-white">
+            <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+            <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+          </div>
+        </div>
+      -->
+
+      <!-- END About/Intro Menu -->
       </div>
 
-      <div class="col-sm-12 ">
-        <br><br>
-        <h3>Thinking of You</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/KcEisutZg1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    <!-- END GRID -->
+    </div>
+
+  <!-- END w3-content -->
+  </div>
+
+
+  <!-- Subscribe Modal -->
+  <!--
+  <div id="subscribe" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content" style="padding:32px">
+      <div class="w3-container w3-white">
+        <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+        <h2 class="w3-wide">SUBSCRIBE</h2>
+        <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+        <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
       </div>
     </div>
   </div>
-</div>
+  -->
 
-
-<!-- Container (FOLLOW ME Section) -->
-<div id="follow">
-  <div class="container">
-    <h2 class="text-center">Follow Me</h2>
-    <div class="row">
-      <div class="col-lg">
-        <h3 class="text-center">
-          <a href="https://www.instagram.com/ksempmusic/"><i class="fa fa-instagram"></i> Instagram
-          </a>   /
-          <a href="https://www.facebook.com/ksempmusic/"><i class="fa fa-facebook"></i>acebook
-          </a>
-        </h3>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Footer -->
-<footer class="text-center" class="container">
-  <h2><a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a></h2>
-  <p>K Semp 2019</p>
-</footer>
-
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip();
-
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
+  <!-- Footer -->
+  <footer class="w3-container w3-black" style="padding:32px">
+    <a href="#" class="w3-button w3-white w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Pat yourself on the back, you made it to the end.
+    <p>Many of the photos on this website would not have been possible without the help of L. Sortome.</p>
+    <p>K Semp 2020</p>
+  </footer>
 
 </body>
 </html>
